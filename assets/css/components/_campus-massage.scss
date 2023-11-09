@@ -1,0 +1,62 @@
+.campus-massage {
+    width: 100%; 
+    background-color:#2c8b99;
+
+    .campus-massage-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        position: relative; 
+
+        .campus-massage-description {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            width: 100%;
+            z-index: 2;
+
+            .description-title {
+              color: white; }
+            
+            .description-par {
+              font-size: 24px;
+              font-weight: 400;
+              color: white;
+              font-family: Inter;
+              line-height: 29.05px;
+              text-align: center; }
+        }
+        .massage-image {
+          margin-top: 50px;
+          max-width: 400px;
+          max-height: 520px;
+          width: 100%; 
+        }
+    }
+}
+
+@media (min-width:1366px){
+    .campus-massage-container{
+        flex-direction: row !important;
+        justify-content: center;
+
+        .campus-massage-description{
+            width: 50%;
+            align-items: start;
+            
+            .description-par{
+              width: 79%;
+              text-align: start;
+            }
+        }
+    }
+}
+@media (min-width:768px) and (max-width:1366px){
+  .description-par, .about-par{
+      max-width: 800px;
+  }
+}

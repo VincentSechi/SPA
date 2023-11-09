@@ -1,0 +1,122 @@
+.contact{
+    padding:20px;
+    margin: 50px 0;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+
+    .contact-image-aside{
+        position:relative;
+
+        .contact-container{
+            max-width: 1600px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            gap:50px;
+
+            .contact-desc{
+                display: flex;
+                align-items: center;
+                gap:40px;
+
+                .contact-title{
+                    color: #1B5058;
+                }
+                .contact-phone{
+                    display: none;
+                    font-size: 25px;
+                    font-family: ABeeZee;
+                    font-style: italic;
+                    line-height: 30px;
+                    color: #1B5058;
+                    text-decoration: none;
+                }
+                .contact-par{
+                    font-size: 1rem;
+                    font-family: ABeeZee;
+                    font-style: italic;
+                    font-weight: 400;
+                    color: #1B5058;
+                }
+            }
+
+            .contact-form{
+                display: flex;
+                flex-wrap: wrap;
+                gap:10px;
+
+                .input-field{
+                    color:white;
+                    caret-color: white;
+                    z-index:2;
+                    background-color: #37A6B6;
+                    border-radius: 20px;
+                    padding:10px 20px;
+                    font-size: 15px;
+                    font-style: italic;
+                    font-weight: 400;
+                    font-family: ABeeZee;
+                    text-transform: uppercase;
+                    border: none;
+                    width: 100%;
+                    max-height: 38px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                }
+                .input-msg{
+                    z-index:2;
+                    background-color: #37A6B6;
+                    border-radius: 20px;
+                    padding:10px 20px;
+                    font-size: 15px;
+                    font-style: italic;
+                    font-weight: 400;
+                    font-family: ABeeZee;
+                    text-transform: uppercase;
+                    border: none;
+                    width: 100%;
+                }
+                .knowmore-button{
+                    margin:50px auto;
+                }
+            }
+        }
+        .contact-image{
+            top:0;
+            z-index:0;
+            margin-left: auto; 
+            margin-right: auto; 
+            left: 0; 
+            right: 0; 
+            position: absolute;
+            max-width: 400px;
+            width: 100%;
+            opacity: 0.2;
+        }
+    }
+}
+@media (min-width:1366px){
+    .contact-image-aside{
+        display: flex;
+        justify-content: space-around;
+
+        .contact-container{
+            width: 50%;
+            justify-content: center;
+            
+            .input-field{
+                width: 49%;
+            }
+        }
+
+        .contact-image{
+            opacity: 1;
+            position:relative;
+            margin:0;
+        }
+    }
+}
