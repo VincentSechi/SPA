@@ -60,10 +60,9 @@
 
 @media (min-width:1366px){
     .tarifs-container{
-        flex-direction: row;
-        align-items: self-start;
-        justify-content: space-around;
-        position: relative;
+        flex-direction: row !important;
+        align-items: self-start !important;
+        justify-content: space-around !important;
 
         .tarifs-desc{
             display: flex;

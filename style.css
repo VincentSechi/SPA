@@ -260,14 +260,14 @@ header {
         border-radius: 20px 20px 0 0;
         background-color: #2C8B99;
         text-transform: uppercase; }
-      .interventions .interventions-container .intervention-item .intervention_item-desc {
+      .interventions .interventions-container .intervention-item .intervention-item-desc {
         background-color: #246f7a;
         border-radius: 0 0 20px 20px;
         font-size: 14px;
         font-weight: 400;
         padding: 10px 30px 40px 30px;
         text-align: center; }
-      .interventions .interventions-container .intervention-item .intervention-item-title, .interventions .interventions-container .intervention-item .intervention_item-desc {
+      .interventions .interventions-container .intervention-item .intervention-item-title, .interventions .interventions-container .intervention-item .intervention-item-desc {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -333,10 +333,9 @@ header {
 
 @media (min-width: 1366px) {
   .tarifs-container {
-    flex-direction: row;
-    align-items: self-start;
-    justify-content: space-around;
-    position: relative; }
+    flex-direction: row !important;
+    align-items: self-start !important;
+    justify-content: space-around !important; }
     .tarifs-container .tarifs-desc {
       display: flex;
       flex-direction: column;
@@ -433,10 +432,9 @@ header {
     display: flex;
     justify-content: space-around; }
     .contact-image-aside .contact-container {
-      width: 50%;
-      justify-content: center; }
+      width: 50%; }
       .contact-image-aside .contact-container .input-field {
-        width: 49%; }
+        width: 49% !important; }
     .contact-image-aside .contact-image {
       opacity: 1;
       position: relative;
@@ -485,7 +483,7 @@ header {
 
 @media (min-width: 1366px) {
   .footer-container {
-    flex-direction: row;
+    flex-direction: row !important;
     justify-content: center;
     gap: 50px; }
     .footer-container .footer-links {

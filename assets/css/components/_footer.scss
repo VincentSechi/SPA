@@ -51,7 +51,7 @@
 
 @media (min-width:1366px){
     .footer-container{
-        flex-direction: row;
+        flex-direction: row !important;
         justify-content: center;
         gap:50px;
 

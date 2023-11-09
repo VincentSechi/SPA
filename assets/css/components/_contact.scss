@@ -106,13 +106,12 @@
 
         .contact-container{
             width: 50%;
-            justify-content: center;
-            
+
             .input-field{
-                width: 49%;
+                width: 49% !important;
             }
         }
-
+        
         .contact-image{
             opacity: 1;
             position:relative;
