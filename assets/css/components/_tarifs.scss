@@ -1,7 +1,7 @@
 .tarifs{
     padding:50px;
     width: 100%;
-    background-color: #2C8B99;
+    background-color: $lightBlueBackground;
     .tarifs-container{
     z-index: 1;
     margin: 0 auto;
@@ -16,6 +16,9 @@
                 padding:10px 30px;
                 width: 80%;
                 }
+                .tarif-button{
+                    max-width: 50% !important;
+                }
             .tarifs-desc-container{
                 display: flex;
                 flex-direction: column;
@@ -25,7 +28,6 @@
                 .tarifs-title{
                     justify-content: center;
                     display: flex;
-                    color: white;
                 }
                 .tarifs-desc-item{
                     display: flex;
@@ -45,12 +47,12 @@
                         align-items: center;
                         flex-direction: column;
                         margin: 30px 0;
-                    }
-                    .knowmore-button{
-                        margin: 5px 5px !important;
-                        justify-content: center;
-                        font-weight: 400;
-                        font-size: 1.2rem;
+                        .knowmore-button{
+                            margin: 5px 5px !important;
+                            justify-content: center;
+                            font-weight: 400;
+                            font-size: 1.2rem;
+                        }
                     }
                 }
             }
@@ -75,5 +77,6 @@
             }
         }
     }
+    
 }
     

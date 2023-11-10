@@ -1,13 +1,20 @@
+$lightBlueButton: #37A6B6;
+$lightBlueBackground: #2C8B99;
+$darkBlue: #1B5058;
+$menuBlue :#246F7A;
 
+@mixin title($size : 33px, $color: #ffffff){
+    font-size: $size;
+    color:$color;
+    font-family: Philosopher;
+    text-transform: uppercase;
+    font-weight: 400;
+}
 *{
     font-size:16px;
 }
 h1,h2{
-    text-transform: uppercase;
-    font-family: Philosopher;
-    font-weight: 400;
-    font-size: 33px;
-    text-transform: uppercase;
+    @include title;
 }
 section{
     margin-bottom:50px !important;
@@ -40,7 +47,7 @@ section{
 }
 .knowmore-button {
     width: 125px;
-    background-color: #37a6b6;
+    background-color: $lightBlueButton;
     border-radius: 20px;
     padding: 5px 11px;
     text-decoration: none;
@@ -57,12 +64,12 @@ section{
   
 .knowmore-button:hover {
     background-color: #ffffff;
-    border: 1px solid #37a6b6;
-    color: #37a6b6;
+    border: 1px solid $lightBlueButton;
+    color: $lightBlueButton;
     transition: 300ms; }
   
 .knowmore-button:hover span {
-    border: 2px solid #37a6b6;
+    border: 2px solid $lightBlueButton;
     transition: 300ms; }
   
 .white-border-span {

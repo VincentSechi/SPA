@@ -5,7 +5,7 @@
     width: 100%;
     
     .interventions-title{
-        color: #1B5058;
+        color: $darkBlue;
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
@@ -36,16 +36,18 @@
                 font-weight: 700;
                 min-height: 50px;
                 border-radius: 20px 20px 0 0;
-                background-color: #2C8B99;
+                background-color: $lightBlueBackground;
                 text-transform: uppercase;
+                color:#ffffff;
             }
             .intervention-item-desc{
-                background-color: #246f7a;
+                background-color: $menuBlue;
                 border-radius:0 0 20px 20px;
                 font-size:14px;
                 font-weight: 400;
                 padding:10px 30px 40px 30px;
                 text-align:center;
+                color:#ffffff;
             }
             .intervention-item-title,.intervention-item-desc{
                 display: flex;
@@ -53,7 +55,6 @@
                 align-items: center;
                 color:white;
                 font-family: Inter;
-                
             }
         }
     }

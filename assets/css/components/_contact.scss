@@ -23,7 +23,7 @@
                 gap:40px;
 
                 .contact-title{
-                    color: #1B5058;
+                    color: $darkBlue;
                 }
                 .contact-phone{
                     display: none;
@@ -31,7 +31,7 @@
                     font-family: ABeeZee;
                     font-style: italic;
                     line-height: 30px;
-                    color: #1B5058;
+                    color: $darkBlue;
                     text-decoration: none;
                 }
                 .contact-par{
@@ -39,10 +39,10 @@
                     font-family: ABeeZee;
                     font-style: italic;
                     font-weight: 400;
-                    color: #1B5058;
+                    color: $darkBlue;
                 }
             }
-
+            
             .contact-form{
                 display: flex;
                 flex-wrap: wrap;
@@ -52,7 +52,7 @@
                     color:white;
                     caret-color: white;
                     z-index:2;
-                    background-color: #37A6B6;
+                    background-color: $lightBlueButton;
                     border-radius: 20px;
                     padding:10px 20px;
                     font-size: 15px;
@@ -69,7 +69,7 @@
                 }
                 .input-msg{
                     z-index:2;
-                    background-color: #37A6B6;
+                    background-color: $lightBlueButton;
                     border-radius: 20px;
                     padding:10px 20px;
                     font-size: 15px;
@@ -102,7 +102,9 @@
 @media (min-width:1366px){
     .contact-image-aside{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap:50px;
+        align-items: center;
 
         .contact-container{
             width: 50%;
@@ -113,9 +115,9 @@
         }
         
         .contact-image{
-            opacity: 1;
-            position:relative;
-            margin:0;
+            opacity: 1 !important;
+            position:relative !important;
+            margin:0 !important;
         }
     }
 }

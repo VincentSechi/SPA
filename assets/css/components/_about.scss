@@ -13,7 +13,7 @@
         width: 100%;
         position: relative;
         .about-par{
-            color:#1B5058;
+            color:$darkBlue;
             width: 75%;
             font-size:24px;
             font-weight: 400;
@@ -21,7 +21,7 @@
             text-align: center;
         }
         .about-title{
-            color:#1B5058;
+            color:$darkBlue;
         }
     }
 }
